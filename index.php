@@ -1,7 +1,7 @@
 <?php
     $message = "Hello";
-    $name = "Brady";
-    $greeting = $message . " " . $name;
+    $name = "Brady Peterson";
+    $greeting = "{$message} {$name}";
     echo $greeting;
     
     var_dump($greeting)
