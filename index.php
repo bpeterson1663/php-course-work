@@ -11,4 +11,14 @@
     var_dump($articles);
 
     echo $articles[0];
+
+    $associateIndex = [
+      "first" => "First post", 
+      "second" => "Another Post", 
+      "third" => "Third Post"
+    ];
+
+    var_dump($associateIndex);
+
+    echo $associateIndex["second"];
 ?>
