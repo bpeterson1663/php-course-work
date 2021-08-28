@@ -28,7 +28,11 @@
       ["title" => "Third Post", "content" => "This is the third post"],
     ];
 
-    foreach ($articlesMap as $article) {
-      echo $article["title"], ", ";
+    foreach ($articlesMap as $index => $article) {
+      echo $index . ": " . $article["title"], ", ";
+    }
+
+    foreach ($associateIndex as $index => $article) {
+      echo $index . ": " . $article . ", ";
     }
 ?>
