@@ -35,4 +35,31 @@
     foreach ($associateIndex as $index => $article) {
       echo $index . ": " . $article . ", ";
     }
+
+    if (empty(articles)) {
+      echo "Articles is empty";
+    } else {
+      echo "it's not empty";
+    }
+
+    if ("2" == 2) {
+      echo "no type check";
+    } 
+    if ("2" === 2) {
+      echo "type check";
+    }
+
+
+    $day = "Tuesday";
+
+    switch($day) {
+      case "Monday":
+        echo "Happy Monday!";
+        break;
+      case "Tuesday":
+        echo "It's Tuesday";
+        break;
+      default:
+        echo "no day";
+    }
 ?>
