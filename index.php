@@ -63,3 +63,11 @@
         echo "no day";
     }
 ?>
+<!DOCTYPE html>
+    <body>
+    <h1>Hello</h1>
+    <?php foreach ($associateIndex as $index => $article) : ?>
+      <h3> <?= $article; ?> </h3>
+    <?php endforeach; ?>
+    </body>
+</html>
